@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1122 1402" role="img" aria-labelledby="title desc">
+  <title id="title">Vitali pricing data flow</title>
+  <desc id="desc">Infographic showing reservation data transformed into cleaning costs, seasonality, pricing references, monthly balance, and stakeholder decisions.</desc>
+  <rect width="1122" height="1402" fill="#ffffff"/>
+  <rect x="1" y="1" width="1120" height="1400" fill="none" stroke="#d7dee6" stroke-width="2"/>
+  <text x="561" y="120" text-anchor="middle" fill="#14314a" font-family="Inter, Arial, sans-serif" font-size="86" font-weight="800">Vitali Pricing</text>
+  <text x="561" y="178" text-anchor="middle" fill="#66717f" font-family="Inter, Arial, sans-serif" font-size="31">From reservation income data to practical pricing decisions</text>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <g transform="translate(132 246)">
+      <rect width="858" height="116" rx="16" fill="#f7f8f6" stroke="#2f6fa8" stroke-width="2"/>
+      <circle cx="62" cy="58" r="32" fill="#2f6fa8"/>
+      <text x="62" y="69" text-anchor="middle" fill="#ffffff" font-size="34" font-weight="800">1</text>
+      <text x="132" y="52" fill="#14314a" font-size="34" font-weight="800">Reservation history</text>
+      <text x="132" y="88" fill="#66717f" font-size="24">Income records, booked nights, dates, and cleaning costs</text>
+    </g>
+
+    <path d="M561 376 L561 428" stroke="#2f6fa8" stroke-width="5" fill="none"/>
+    <path d="M546 413 L561 434 L576 413" fill="none" stroke="#2f6fa8" stroke-width="5" stroke-linecap="round"/>
+
+    <g transform="translate(132 446)">
+      <rect width="858" height="116" rx="16" fill="#f7f8f6" stroke="#4f7f6a" stroke-width="2"/>
+      <circle cx="62" cy="58" r="32" fill="#4f7f6a"/>
+      <text x="62" y="69" text-anchor="middle" fill="#ffffff" font-size="34" font-weight="800">2</text>
+      <text x="132" y="52" fill="#14314a" font-size="34" font-weight="800">Cleaning-adjusted view</text>
+      <text x="132" y="88" fill="#66717f" font-size="24">Separate gross income from operating reality</text>
+    </g>
+
+    <path d="M561 576 L561 628" stroke="#4f7f6a" stroke-width="5" fill="none"/>
+    <path d="M546 613 L561 634 L576 613" fill="none" stroke="#4f7f6a" stroke-width="5" stroke-linecap="round"/>
+
+    <g transform="translate(132 646)">
+      <rect width="858" height="116" rx="16" fill="#f7f8f6" stroke="#b26b45" stroke-width="2"/>
+      <circle cx="62" cy="58" r="32" fill="#b26b45"/>
+      <text x="62" y="69" text-anchor="middle" fill="#ffffff" font-size="34" font-weight="800">3</text>
+      <text x="132" y="52" fill="#14314a" font-size="34" font-weight="800">Demand and seasonality</text>
+      <text x="132" y="88" fill="#66717f" font-size="24">Monthly behavior, occupancy signals, and price references</text>
+    </g>
+
+    <path d="M561 776 L561 828" stroke="#b26b45" stroke-width="5" fill="none"/>
+    <path d="M546 813 L561 834 L576 813" fill="none" stroke="#b26b45" stroke-width="5" stroke-linecap="round"/>
+
+    <g transform="translate(132 846)">
+      <rect width="858" height="116" rx="16" fill="#f7f8f6" stroke="#2f6fa8" stroke-width="2"/>
+      <circle cx="62" cy="58" r="32" fill="#2f6fa8"/>
+      <text x="62" y="69" text-anchor="middle" fill="#ffffff" font-size="34" font-weight="800">4</text>
+      <text x="132" y="52" fill="#14314a" font-size="34" font-weight="800">Dashboard summary</text>
+      <text x="132" y="88" fill="#66717f" font-size="24">Readable charts for a non-technical stakeholder</text>
+    </g>
+
+    <path d="M561 976 L561 1028" stroke="#2f6fa8" stroke-width="5" fill="none"/>
+    <path d="M546 1013 L561 1034 L576 1013" fill="none" stroke="#2f6fa8" stroke-width="5" stroke-linecap="round"/>
+
+    <g transform="translate(132 1046)">
+      <rect width="858" height="116" rx="16" fill="#f7f8f6" stroke="#4f7f6a" stroke-width="2"/>
+      <circle cx="62" cy="58" r="32" fill="#4f7f6a"/>
+      <text x="62" y="69" text-anchor="middle" fill="#ffffff" font-size="34" font-weight="800">5</text>
+      <text x="132" y="52" fill="#14314a" font-size="34" font-weight="800">Decision support</text>
+      <text x="132" y="88" fill="#66717f" font-size="24">Pricing ranges, monthly balance estimates, and tradeoffs</text>
+    </g>
+
+    <g transform="translate(78 1225)">
+      <rect width="966" height="96" rx="18" fill="#eef5fb" stroke="#2f6fa8" stroke-width="2"/>
+      <text x="483" y="58" text-anchor="middle" fill="#14314a" font-size="30" font-weight="800">Designed for interpretability over unnecessary model complexity</text>
+    </g>
+  </g>
+</svg>

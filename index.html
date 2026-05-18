@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alejandro | Electronics Engineering Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Alejandro, an Electronics Engineering student building validation workflows, applied software tools, data analysis, and practical ML systems."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Main navigation">
+      <a class="brand" href="#top">Alejandro</a>
+      <nav>
+        <a href="#work">Work</a>
+        <a href="#range">Range</a>
+        <a href="#about">About</a>
+        <a href="assets/Alejandro_CV_Portfolio.pdf" download>CV</a>
+        <a href="https://www.linkedin.com/in/alejandro-v%C3%A1squez-173a29403/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Electronics Engineering · ITCR · Costa Rica</p>
+          <h1 id="hero-title">
+            Building validated technical systems across software, data, ML, and electronics.
+          </h1>
+          <p class="hero-text">
+            I am an advanced Electronics Engineering student focused on validation workflows,
+            applied software tools, data analysis, and practical ML systems. I work best when
+            technical uncertainty needs to become structured, testable work.
+          </p>
+          <div class="hero-actions" aria-label="Primary links">
+            <a class="button primary" href="#work">View work</a>
+            <a class="button" href="./assets/Alejandro_CV_Portfolio.pdf" download>Download CV</a>
+            <a class="button ghost" href="https://github.com/vasquezale">GitHub</a>
+            <a class="button ghost" href="https://www.linkedin.com/in/alejandro-v%C3%A1squez-173a29403/">LinkedIn</a>
+          </div>
+          <div class="hero-tags" aria-label="Technical focus areas">
+            <span>Validation</span>
+            <span>Data / ML</span>
+            <span>Electronics</span>
+            <span>Reproducibility</span>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="Profile signals">
+          <div>
+            <span class="panel-label">Recruiter signal</span>
+            <strong>Validation-minded builder</strong>
+            <p>I turn open-ended technical work into testable steps, documented evidence, and clear tradeoffs.</p>
+          </div>
+          <div>
+            <span class="panel-label">Public profile</span>
+            <strong>Electronics plus software range</strong>
+            <p>My strongest signal is not one tool, but the way I connect validation, data, ML, and electronics.</p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section intro-band" aria-label="Engineering posture">
+        <p>
+          I like to understand how systems behave before I optimize them. In practice, that means
+          documenting decisions, validating outputs, and asking for feedback early enough to improve the work.
+        </p>
+      </section>
+
+      <section class="section" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="eyebrow">Selected work</p>
+          <h2 id="work-title">Projects as evidence</h2>
+        </div>
+
+        <article class="case primary-case">
+          <div class="case-copy">
+            <p class="case-index">01</p>
+            <h3>BloodyDiagnose - Multi-stage ML Pipeline for Blood-Smear Image Analysis</h3>
+            <div class="case-meta" aria-label="Project metadata">
+              <span>Team project</span>
+              <span>ML pipeline</span>
+              <span>Tested artifacts</span>
+            </div>
+            <p>
+              Team project focused on a modular computer vision pipeline for blood-smear images,
+              covering detection, classification, evaluation, and report-oriented aggregation.
+            </p>
+            <dl>
+              <div>
+                <dt>Evidence</dt>
+                <dd>Explicit pipeline stages, artifact tracking, automated tests, and quality checks.</dd>
+              </div>
+              <div>
+                <dt>Boundary</dt>
+                <dd>Presented as an ML engineering project, not as a medical product.</dd>
+              </div>
+            </dl>
+            <div class="case-actions" aria-label="Project links">
+              <span>Academic artifacts pending</span>
+            </div>
+          </div>
+          <figure class="case-media">
+            <img src="assets/bloodydiagnose-pipeline.png" alt="BloodyDiagnose pipeline visual output" />
+          </figure>
+        </article>
+
+        <article class="case">
+          <div class="case-copy">
+            <p class="case-index">02</p>
+            <h3>QuantSpec - AI-Assisted Hypothesis Validation Workflow</h3>
+            <div class="case-meta" aria-label="Project metadata">
+              <span>Self-initiated</span>
+              <span>Python / Claude</span>
+              <span>Reproducible artifacts</span>
+            </div>
+            <p>
+              A spec-first workflow that turns trading hypotheses into structured briefs, validation
+              gates, backtest artifacts, and decision-oriented reports with traceable human review.
+            </p>
+            <dl>
+              <div>
+                <dt>Evidence</dt>
+                <dd>Workflow design, decision records, validation artifacts, and documented review steps.</dd>
+              </div>
+              <div>
+                <dt>Boundary</dt>
+                <dd>Presented as workflow engineering, not as a financial performance claim.</dd>
+              </div>
+            </dl>
+            <div class="case-actions" aria-label="Project links">
+              <a href="https://github.com/vasquezale/QuantSpec" target="_blank" rel="noreferrer">Repository</a>
+            </div>
+          </div>
+          <figure class="case-media contain">
+            <img src="assets/quantspec-infogram.png" alt="QuantSpec reproducible hypothesis validation workflow infographic" />
+          </figure>
+        </article>
+
+        <article class="case text-only">
+          <div class="case-copy">
+            <p class="case-index">03</p>
+            <h3>FPGA Digital Control System for a DC-DC Boost Converter</h3>
+            <div class="case-meta" aria-label="Project metadata">
+              <span>Team project</span>
+              <span>Power electronics</span>
+              <span>Simulation-led validation</span>
+            </div>
+            <p>
+              Team project in a power-electronics context. I contributed to the design and validation
+              of a digital control system using a modular SystemVerilog implementation on Basys3. The
+              project required connecting control logic, simulation evidence, lab constraints, and a
+              staged validation process before hardware bring-up.
+            </p>
+            <dl>
+              <div>
+                <dt>Evidence</dt>
+                <dd>Simulation, test procedures, peer review, and traceable documentation before hardware bring-up.</dd>
+              </div>
+              <div>
+                <dt>Focus</dt>
+                <dd>Control logic organization, module-level reasoning, and verification steps in a power-electronics setting.</dd>
+              </div>
+              <div>
+                <dt>Role</dt>
+                <dd>Useful electronics foundation, included as support rather than the main identity signal.</dd>
+              </div>
+            </dl>
+            <div class="case-actions" aria-label="Project links">
+              <span>Private academic repository</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="case">
+          <div class="case-copy">
+            <p class="case-index">04</p>
+            <h3>Vitali Pricing - Data Dashboard for a Local Host</h3>
+            <div class="case-meta" aria-label="Project metadata">
+              <span>Self-initiated</span>
+              <span>Real reservation data</span>
+              <span>Stakeholder dashboard</span>
+            </div>
+            <p>
+              A self-initiated dashboard over real reservation income data, built to surface demand
+              patterns, pricing references, and monthly balance estimates for a non-technical stakeholder.
+            </p>
+            <dl>
+              <div>
+                <dt>Evidence</dt>
+                <dd>Interactive dashboard, real stakeholder context, interpretable analysis.</dd>
+              </div>
+              <div>
+                <dt>Tradeoff</dt>
+                <dd>Interpretability and decision support over unnecessary model complexity.</dd>
+              </div>
+            </dl>
+            <div class="case-actions" aria-label="Project links">
+              <a href="https://github.com/vasquezale/vitali-pricing-assistant/tree/codex/public-ready" target="_blank" rel="noreferrer">Repository</a>
+            </div>
+          </div>
+          <figure class="case-media contain">
+            <img src="assets/vitali-data-flow.svg" alt="Vitali pricing data flow from reservation history to decision support" />
+          </figure>
+        </article>
+      </section>
+
+      <section class="section range" id="range" aria-labelledby="range-title">
+        <div class="section-heading">
+          <p class="eyebrow">Engineering range</p>
+          <h2 id="range-title">Where I can contribute</h2>
+        </div>
+        <div class="range-grid">
+          <div>
+            <span>01</span>
+            <h3>Turning ambiguity into testable work</h3>
+            <p>Breaking open-ended technical tasks into assumptions, test plans, simulation checks, and documented next steps.</p>
+          </div>
+          <div>
+            <span>02</span>
+            <h3>Building practical data and ML tools</h3>
+            <p>Creating dashboards, computer vision pipelines, evaluation reports, and automation that help people make decisions.</p>
+          </div>
+          <div>
+            <span>03</span>
+            <h3>Bridging electronics and software contexts</h3>
+            <p>Using hardware-aware debugging, lab instrumentation, SystemVerilog exposure, and software habits on engineering problems.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2 id="about-title">Early-career engineer with practical range</h2>
+        </div>
+        <div class="about-layout">
+          <div>
+            <p>
+              I am studying Electronics Engineering at Instituto Tecnologico de Costa Rica (ITCR).
+              My work sits between validation, applied software, data and ML tools, and electronics.
+              Across projects, I try to make technical work easier to inspect through clear assumptions,
+              reproducible structure, documented evidence, and honest limits.
+            </p>
+            <p>
+              I work in an organized and curious way, and I try to ask questions early when
+              requirements, assumptions, or expected outputs are unclear. I am still early-career,
+              so I value feedback loops and make an effort to share progress before everything feels final.
+            </p>
+          </div>
+          <figure class="cv-figure">
+            <img src="assets/cv-preview.png" alt="Preview of Alejandro's one-page CV" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
+        <p class="eyebrow">Contact</p>
+        <h2 id="contact-title">Open to internships and professional practice opportunities.</h2>
+        <div class="contact-links">
+          <a href="mailto:vasquezale0817@gmail.com">vasquezale0817@gmail.com</a>
+          <a href="tel:+50687843035">+506 8784-3035</a>
+          <a href="https://github.com/vasquezale" target="_blank" rel="noreferrer">github.com/vasquezale</a>
+          <a href="https://www.linkedin.com/in/alejandro-v%C3%A1squez-173a29403/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="assets/Alejandro_CV_Portfolio.pdf" download>CV PDF</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
