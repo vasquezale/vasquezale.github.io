@@ -43,9 +43,10 @@
     <line x1="180" y1="-62" x2="360" y2="0" stroke="#9fc4ff" stroke-width="8" stroke-linecap="round"/>
     <line x1="608" y1="-62" x2="428" y2="0" stroke="#9fc4ff" stroke-width="8" stroke-linecap="round"/>
     <rect x="188" y="0" width="412" height="190" rx="24" fill="url(#blue)" filter="url(#shadow)"/>
-    <text x="232" y="58" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="850">Python validation pipeline</text>
-    <text x="232" y="104" fill="#eaf7ff" font-family="Inter, Arial, sans-serif" font-size="24">Compare measured vs simulated gain</text>
-    <text x="232" y="142" fill="#eaf7ff" font-family="Inter, Arial, sans-serif" font-size="24">Check limits and preserve evidence</text>
+    <text x="232" y="52" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="850">Python validation pipeline</text>
+    <text x="232" y="94" fill="#eaf7ff" font-family="Inter, Arial, sans-serif" font-size="22">Compare measurements</text>
+    <text x="232" y="126" fill="#eaf7ff" font-family="Inter, Arial, sans-serif" font-size="22">with simulation reference</text>
+    <text x="232" y="158" fill="#eaf7ff" font-family="Inter, Arial, sans-serif" font-size="22">Check limits and evidence</text>
   </g>
 
   <g transform="translate(86 800)" filter="url(#shadow)">
